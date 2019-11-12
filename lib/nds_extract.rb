@@ -51,7 +51,10 @@ def total_gross(source)
   names = list_of_directors(source)
   first_index = 0 
   while first_index < list_of_directors.length do 
-    total += directors_totals(names[first_index])
+    name_order = names[first_index]
+    number = hash[name_order]
+    total += number
+    
     first_index += 1 
   
   end 
