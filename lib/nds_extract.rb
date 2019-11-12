@@ -47,7 +47,7 @@ def total_gross(source)
   # return the total
   
   total = 0 
-  lfirst_index = 0 
+  first_index = 0 
   while first_index < list_of_directors.length do 
     name_order = list_of_directors(source)[first_index]
     number = list_of_directors(source)[name_order]
