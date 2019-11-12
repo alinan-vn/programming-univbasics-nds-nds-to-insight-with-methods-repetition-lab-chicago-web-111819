@@ -49,4 +49,4 @@ def total_gross(source)
   
 end
 
-
+pp list_of_directors(directors_database)
